@@ -1,0 +1,8 @@
+streamlit
+spacy
+python-dateutil
+dateparser
+pdfminer.six
+docx2txt
+matplotlib
+numpy
