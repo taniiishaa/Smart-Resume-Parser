@@ -77,8 +77,16 @@ streamlit run app.py
 
 This project is architected for future expansion into a production-grade system:
 
-1. Database Integration: Implement PostgreSQL/SQLite to store all parsed data, enabling search, filtering, and trend analysis on the candidate pool.
+1. **Database Integration:** Implement PostgreSQL/SQLite to store all parsed data, enabling search, filtering, and trend analysis on the candidate pool.
 
-2. Custom NLP Training: Train a custom spaCy Named Entity Recognition (NER) model to increase accuracy in extracting precise job titles and company names.
+2. **Custom NLP Training:** Train a custom spaCy Named Entity Recognition (NER) model to increase accuracy in extracting precise job titles and company names.
 
-3. Batch Processing: Add an option to process an entire folder of resumes at once, generating a summarized CSV report.
+3. **Batch Processing:** Add an option to process an entire folder of resumes at once, generating a summarized CSV report.
+
+## ✅ Quality Assurance & Deliverables
+
+To ensure the parser's reliability and consistency, the project includes specific validation assets:
+
+- **5 Test Resumes:** A diverse set of PDF and DOCX files (ranging from Junior to Senior experience, simple to complex layouts) are provided in the /test_data directory.
+
+- **Expected Output Files:** For each of the test resumes, a corresponding .json output file is generated and stored in the /expected_output directory. These files serve as a benchmark to confirm that the parser's extraction logic remains accurate across different document formats and content types.
