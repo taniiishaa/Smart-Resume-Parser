@@ -47,3 +47,38 @@ Ensure you have **Python 3.8+** installed on your system.
 ```bash
 git clone https://github.com/taniiishaa/Smart-Resume-Parser
 cd Smart-Resume-Parser
+```
+
+### Step 2: Setup Environment and Dependencies
+
+Install all required libraries using the provided requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Download the NLP Model (Crucial)
+
+Download the necessary small English language model for spaCy performance:
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
+### Step 4: Launch the Application
+
+Run the Streamlit application from your terminal. It will open automatically in your web browser:
+
+```bash
+streamlit run app.py
+```
+
+## 💡 Future Scope & Scalability
+
+This project is architected for future expansion into a production-grade system:
+
+1. Database Integration: Implement PostgreSQL/SQLite to store all parsed data, enabling search, filtering, and trend analysis on the candidate pool.
+
+2. Custom NLP Training: Train a custom spaCy Named Entity Recognition (NER) model to increase accuracy in extracting precise job titles and company names.
+
+3. Batch Processing: Add an option to process an entire folder of resumes at once, generating a summarized CSV report.
