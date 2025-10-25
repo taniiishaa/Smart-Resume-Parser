@@ -1,0 +1,25 @@
+{
+    "Score_Final_Match_Percent": 60.0,
+    "Score_Skill_Match_Percent": 100.0,
+    "YoE_Total_Years": 0.0,
+    "Candidate_Name": "Tanisha |tanishac216@gmail.com 8571032055github.com/taniishaa| www.linkedin.com/in/tanisha-chaudhary-121621292Acquired hands-on experience in Python, Tkinter, and SQL, developing interactive GUI-based applications with real-time database integration to enhance user efficiency and data management.Engineered multiple end-to-end projects, including a Bank Management System, Hospital Management System, andLibrary Management System, showcasing strong problem-solving, design, and implementation skills in full-stackapplication development.Sales Forecasting Dashboard: Predicted future sales using Python, Pandas, and Scikit-learn, and visualized insightswith Matplotlib/Power BI.Customer Churn Prediction: Built an ML model using Logistic Regression and Random Forest to identify at-riskcustomers.COVID-19 Data Analytics Dashboard: Analyzed global datasets with Python and SQL and deployed an interactivedashboard on AWS.Languages: C++, Python",
+    "Candidate_Email": "tanishac216@gmail.com",
+    "Candidate_Phone": "8571032055",
+    "Skills_Matched": [
+        "Scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Flask",
+        "Pandas",
+        "NumPy",
+        "Python",
+        "Data Analysis",
+        "SQL",
+        "HTML",
+        "AWS",
+        "Git"
+    ],
+    "Education_Details": [
+        "B.Tech"
+    ]
+}
